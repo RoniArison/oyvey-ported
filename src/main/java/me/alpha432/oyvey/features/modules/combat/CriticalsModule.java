@@ -11,8 +11,8 @@ import net.minecraft.world.entity.boss.enderdragon.EndCrystal;
 
 public class CriticalsModule extends Module {
     public CriticalsModule() {
-        super("Criticals", "Makes you do critical hits", Category.COMBAT);
-    }
+        super("Criticals", "makes you fart on p didey", Category.COMBAT);
+    
 
     @Subscribe
     private void onPacketSend(PacketEvent.Send event) {
